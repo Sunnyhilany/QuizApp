@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(49, 49, 248) !important;
+}
+
+/* Karte */
+.container {
+    background-color: rgb(49, 49, 248) !important; /* important wegen Bootstrap */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.card-img-top {
+    object-fit: cover;
+    height: 250px;
+}
+
+.quiz-card {
+    width: 30rem;
+}
+
+.question-footer {
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
